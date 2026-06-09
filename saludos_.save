@@ -1,0 +1,12 @@
+Const N : Int;e : Int;
+Var i : Int; r : Bool;
+a : array[0,N) ofInt;
+{N ≥0}
+i, r := 0,False;
+do i ̸ =N ∧¬r →
+if a.i = e → r := True
+a.i ̸=e→i:=i+1
+fi
+od
+{⟨∃k : 0 ≤k <N : a.k =e⟩⇒a.i=e}
+donde el arreglo a no cambia.
