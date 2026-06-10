@@ -17,3 +17,5 @@ saludos
 suma
 suma_hasta
 vocales
+*.swp
+*.save
